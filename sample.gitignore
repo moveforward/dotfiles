@@ -1,0 +1,25 @@
+# .gitignore for projects that use https://github.com/fullscreeninteractive/silverstripe-boilerplate
+# for setup
+
+# Mac file / folder metadata
+.DS_Store
+# eclipse
+.settings
+bin
+.metadata
+# ss folders that don't need to be version controlled
+/assets
+/framework
+/vendor
+/sqlite3
+/cms
+# local shared db connection
+_ss_environment.php
+/.buildpath
+/.project
+# node modules locally installed (eg: grunt)
+node_modules/
+package.json
+npm-debug.log
+# enter cloned ss module top level firectory paths here
+# eg: /subsites
