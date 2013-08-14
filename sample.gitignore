@@ -7,6 +7,10 @@
 .settings
 bin
 .metadata
+
+# root .htaccess should not ned to be version controlled
+.htaccess
+
 # ss folders that don't need to be version controlled
 /assets
 /framework
@@ -15,11 +19,21 @@ bin
 /cms
 # local shared db connection
 _ss_environment.php
+
+# editor specific
+# eclipse
 /.buildpath
 /.project
+# komodo
+*.komodoproject
+
 # node modules locally installed (eg: grunt)
 node_modules/
 package.json
 npm-debug.log
 # enter cloned ss module top level firectory paths here
 # eg: /subsites
+
+# for Drupal sites
+/sites/default/files
+/sites/default/settings.php
